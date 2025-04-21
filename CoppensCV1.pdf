@@ -1,0 +1,49 @@
+---
+name: Analisa
+surname: Coppens
+position: "Student"
+pronouns: she/her
+address: "3409 Keller Street, Modesto, CA 95355"
+phone: 2094049650
+#www: mariecurie.com
+email: "analisa.nicole25@gmail.com"
+github: acoppens25
+output:
+  vitae::awesomecv:
+    page_total: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Skills
+ **Technical Tools: GitHub, MEGA, RStudio, Microsoft Office
+**Lab \& Research Skills: PCR, Gel electrophoresis, sterile techniques, DNA Extraction , data collection and analysis
+**Communication \& Collaboration: Strong written and verbal communication, working in group setting, peer collaboration 
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "High School Diploma", "2019", "Beyer High School", "Modesto, California",
+   "Biology Transfer","2022", "Modesto Junior College", "Modesto, California",
+  "BS Biological Science, Conc. Organism, Ecology, and Evolution", "2022–2026", "CSU Stanislaus", "Turlock, CA") %>%
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Work Experience
+```{r work-experience}
+library(tibble)
+
+brief_entries(
+  tribble(
+    ~what, ~when, ~with,
+    "Courtesy Clerk, Safeway", "2019–2020", "Assisted customers, maintained cleanliness, and provided general support.",
+    "General Merchandise Expert, Target", "2020–present", "Organized merchandise and ensured shelves were accurately labeled and well-stocked."
+  )
+)
+```
