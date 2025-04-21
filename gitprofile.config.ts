@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://github.com/acoppens25/acoppens25.github.io/raw/main/document.pdf, // Empty fileUrl will hide the `Download Resume` button.
+      'https://github.com/acoppens25/acoppens25.github.io/Raw/main/document.pdf, // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
