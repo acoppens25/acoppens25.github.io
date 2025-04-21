@@ -1,0 +1,60 @@
+---
+name: Analisa
+surname: Coppens
+position: "Student"
+pronouns: she/her
+address: "3409 Keller Street"
+phone: (209) 404-9650
+email: "analisa.nicole25@gmail.com"
+github: acoppens25
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 414141
+output:
+  vitae::awesomecv:
+    page_total: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tibble)
+```
+
+# Skills
+
+I am proficient in technical tools such as GitHub, MEGA, RStudio, and Microsoft Office. My lab and research experience includes PCR, gel electrophoresis, sterile techniques, DNA extraction, and data collection and analysis. I also have strong communication skills and enjoy collaborating in group settings and peer-based projects. 
+
+# Work Experience
+
+```{r}
+tribble(
+  ~ Title, ~ Dates, ~ Company, ~ Where, ~ Details,
+  "Courtesy Clerk", "2019-2020", "Safeway", "Modesto, CA", 
+    list("Assisted customers, maintained cleanliness, and provided general support."),
+  "General Merchandise Expert", "2020–Present", "Target", "Riverbank, CA", 
+    list("Organized merchandise and ensured shelves were accurately labeled and well-stocked.")
+) %>%
+  detailed_entries(Title, Dates, Company, Where, Details)
+```
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "High School Diploma", "2019", "Beyer High School", "Modesto, California",
+   "Biology Transfer","2022", "Modesto Junior College", "Modesto, California",
+  "BS Biological Science, Conc. Organism, Ecology, and Evolution", "2022–2026", "CSU Stanislaus", "Turlock, CA") %>%
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+# Awards
+
+```{r}
+tribble(
+  ~ AwardName, ~ Dates,
+  "National Honor Society", "2022"
+) %>%
+  detailed_entries(AwardName, Dates)
+```
