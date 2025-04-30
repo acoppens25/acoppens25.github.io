@@ -45,8 +45,8 @@ const CONFIG = {
           description:
             'Describes how snails have an impact on the climate',
           imageUrl:
-            'https://github.com/acoppens25/acoppens25.github.io/blob/main/snail%20ppt.png',
-          link: 'https://github.com/acoppens25/acoppens25.github.io/blob/main/snail%20ppt.pdf',
+            'https://github.com/acoppens25/acoppens25.github.io/raw/main/snails.png',
+          link: 'https://github.com/acoppens25/acoppens25.github.io/raw/main/snails.png',
         },
       ],
     },
