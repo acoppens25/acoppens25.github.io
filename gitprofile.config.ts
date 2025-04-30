@@ -37,16 +37,16 @@ const CONFIG = {
           description:
             'Describes coastlines and how humans have an effect on them',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://github.com/acoppens25/acoppens25.github.io/raw/main/coasts%20ppt.png'
+          link: 'https://github.com/acoppens25/acoppens25.github.io/raw/main/coasts%20ppt.pdf',
         },
         {
-          title: 'Project Name',
+          title: 'Snail Presentation',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Describes how snails have an impact on the climate',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg,
         },
       ],
     },
