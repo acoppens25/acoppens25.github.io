@@ -37,7 +37,7 @@ const CONFIG = {
           description:
             'Describes coastlines and how humans have an effect on them',
           imageUrl:
-            'https://github.com/acoppens25/acoppens25.github.io/raw/main/coasts.png'
+            'https://github.com/acoppens25/acoppens25.github.io/raw/main/coasts.png',
           link: 'https://github.com/acoppens25/acoppens25.github.io/raw/main/coasts.pdf',
         },
         {
