@@ -126,7 +126,7 @@ const CONFIG = {
       title: 'Draft genome sequence Chryseobacterium treverense isolated from human clinical sources',
       conferenceName: '',
       journalName: 'Microbiology Resource Announcement',
-      authors: 'Analisa Coppens, Isabella Fregoso, Rachel Haakma, Kimberly Habon, Grace Rodrigues, Tricia A. Van Laar'
+      authors: 'Analisa Coppens, Isabella Fregoso, Rachel Haakma, Kimberly Habon, Grace Rodrigues, Tricia A. Van Laar',
       link: 'https://example.com',
       description: 'We report the draft genome sequence of Chryseobacterium treverense is isolated from human clinical
 sources. The genome is 2,379,279 base pairs and contains genes enhancing bacterium survival and
