@@ -131,7 +131,6 @@ const CONFIG = {
       description: `We report the draft genome sequence of Chryseobacterium treverense is isolated from human clinical
 sources. The genome is 2,379,279 base pairs and contains genes enhancing bacterium survival and
 evasion of the host’s immune system, therefore amplifying broad antibiotic resistance.`,
- ,
     },
     {
       title: 'Publication Title',
